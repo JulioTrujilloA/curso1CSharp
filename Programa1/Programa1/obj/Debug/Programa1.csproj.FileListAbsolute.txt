@@ -1,0 +1,6 @@
+C:\wamp\www\Dropbox\curso1CSharp\Programa1\Programa1\bin\Debug\Programa1.exe.config
+C:\wamp\www\Dropbox\curso1CSharp\Programa1\Programa1\bin\Debug\Programa1.exe
+C:\wamp\www\Dropbox\curso1CSharp\Programa1\Programa1\bin\Debug\Programa1.pdb
+C:\wamp\www\Dropbox\curso1CSharp\Programa1\Programa1\obj\Debug\Programa1.csprojResolveAssemblyReference.cache
+C:\wamp\www\Dropbox\curso1CSharp\Programa1\Programa1\obj\Debug\Programa1.exe
+C:\wamp\www\Dropbox\curso1CSharp\Programa1\Programa1\obj\Debug\Programa1.pdb
