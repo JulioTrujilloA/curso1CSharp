@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C70FD347-E4B8-4302-8026-7F508DA0DFE8}</ProjectGuid>
+    <ProjectGuid>{C732D395-FBFE-475A-8058-AF7DF1322F6B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Programa5</RootNamespace>
-    <AssemblyName>Programa5</AssemblyName>
+    <RootNamespace>Decorator</RootNamespace>
+    <AssemblyName>Decorator</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsEmpleados.cs" />
+    <Compile Include="BaseComputer.cs" />
+    <Compile Include="BigProcessor.cs" />
+    <Compile Include="ComponentDecorator.cs" />
+    <Compile Include="Computer.cs" />
+    <Compile Include="DummyComputer.cs" />
+    <Compile Include="FastSSD.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

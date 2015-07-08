@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C70FD347-E4B8-4302-8026-7F508DA0DFE8}</ProjectGuid>
+    <ProjectGuid>{84FC77EA-1144-4241-B1B7-44AA954A55C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Programa5</RootNamespace>
-    <AssemblyName>Programa5</AssemblyName>
+    <RootNamespace>Memento</RootNamespace>
+    <AssemblyName>Memento</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsEmpleados.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="CarritoOpciones.cs" />
+    <Compile Include="Memento.cs" />
+    <Compile Include="MementoImpl.cs" />
+    <Compile Include="OpcionVehiculo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

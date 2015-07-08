@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Programa5
+namespace Programa6
 {
     class Program
     {
@@ -15,7 +15,7 @@ namespace Programa5
 
             empleado.Edad = 34;
             empleado.Nombre = "Daniel Rentería";
-            empleado.SueldoDiario = 300.5m;
+            empleado.SueldoDiario = 12.5m;
             decimal total;
             total = empleado.CalculaSalario(30);
             Console.WriteLine("El salario mensual de: " + empleado.Nombre);
